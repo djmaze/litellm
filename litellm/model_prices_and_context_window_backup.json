@@ -25890,6 +25890,20 @@
         "supports_vision": true,
         "source": "https://nebius.com/prices-ai-studio"
     },
+    "nebius/zai-org/GLM-5.1": {
+        "max_tokens": 200000,
+        "max_input_tokens": 200000,
+        "max_output_tokens": 200000,
+        "input_cost_per_token": 1.4e-06,
+        "output_cost_per_token": 4.4e-06,
+        "litellm_provider": "nebius",
+        "mode": "chat",
+        "supports_function_calling": true,
+        "supports_reasoning": true,
+        "supports_tool_choice": true,
+        "supports_prompt_caching": true,
+        "source": "https://tokenfactory.nebius.com/models?modals=endpoint-details&model-id=zai-org/GLM-5.1"
+    },
     "nebius/BAAI/bge-en-icl": {
         "max_tokens": 32768,
         "max_input_tokens": 32768,
